@@ -8840,21 +8840,19 @@ code {
       top: 0;
       background-color: #2A8356; }
 
-.table thead th {
-  border-bottom: 1px solid #121212; }
-
-.table th {
-  border-top: none; }
-
-.table td {
-  border-top: 1px solid #EDF4EE;
-  padding: 16px 0 0; }
-
-.table:last-child td {
-  border-bottom: 1px solid #EDF4EE; }
-
-.table .material-icons:hover {
-  color: #2A8356; }
+.table {
+  margin-bottom: 63px; }
+  .table thead th {
+    border-bottom: 1px solid #121212; }
+  .table th {
+    border-top: none; }
+  .table td {
+    border-top: 1px solid #EDF4EE;
+    padding: 16px 0 0; }
+  .table tr:last-child td {
+    border-bottom: 1px solid #EDF4EE; }
+  .table .material-icons:hover {
+    color: #2A8356; }
 
 .table-hover tbody tr:hover {
   color: #121212;
